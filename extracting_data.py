@@ -1,3 +1,5 @@
+# This code extracts data from an API and dose all the calculations neede then it returns the percenteges of water and humdity and other required informations.
+# Please note that setup for selenium libary is needed for the code to work and also API access is not public so the data can not be accessed without a token.
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
